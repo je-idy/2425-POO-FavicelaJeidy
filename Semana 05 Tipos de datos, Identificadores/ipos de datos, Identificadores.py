@@ -1,4 +1,4 @@
-# Programa para calcular el área de diferentes figuras geométricas.
+#                                                                                                                   
 # Funcionalidad: Este programa permite al usuario elegir entre calcular el área de un cuadrado, un rectángulo o un círculo.
 # Utiliza diferentes tipos de datos: integer, float, string y boolean.
 # Autor: Tu Nombre
