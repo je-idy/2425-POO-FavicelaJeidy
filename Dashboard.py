@@ -14,14 +14,14 @@ def mostrar_menu():
     # Define la ruta base donde se encuentra el dashboard.py
     ruta_base = os.path.dirname(__file__)
     opciones = {
-        '1': 'semana 02 ejemplos de tecnica de programacion/ejemplos tecnicas de programacion.py',
-        '2': 'semana 02 ejemplos de tecnica de programacion/sistemas de reservas.py',
-        '3': 'semana 03  Ejemplo Programacion tradicional frente a POO/programacion orientada a objetos.py',
-        '4': 'semana 03  Ejemplo Programacion tradicional frente a POO/programacion tradicional.py',
-        '5': 'semana 044 Semana 04 EjemplosMundoReal_POO/tienda.py',
-        '6': 'semana 05 Semana 05 Tipos de datos, Identificadores/ipos de datos, Identificadores.py',
-        '7': 'semana 06 Semana 06. Clases, objetos, herencia, encapsulamiento y polimorfismo/Clases, objetos, herencia, encapsulamiento y polimorfismo.py',
-        '8': 'semana 07 semana 07 Constructores y Destructores/Constructores y Destructores.py'
+        '1': 'Semana 02 ejemplos de tecnica de programacion/ejemplos tecnicas de programacion.py',
+        '2': 'Semana 02 ejemplos de tecnica de programacion/sistemas de reservas.py',
+        '3': 'Semana 03  Ejemplo Programacion tradicional frente a POO/programacion orientada a objetos.py',
+        '4': 'Semana 03  Ejemplo Programacion tradicional frente a POO/programacion tradicional.py',
+        '5': 'Semana 04 EjemplosMundoReal_POO/tienda.py',
+        '6': 'Semana 05 Tipos de datos, Identificadores/ipos de datos, Identificadores.py',
+        '7': 'Semana 06 Clases, objetos, herencia, encapsulamiento y polimorfismo/Clases, objetos, herencia, encapsulamiento y polimorfismo.py',
+        '8': 'Semana 07 Constructores y Destructores/Constructores y Destructores.py'
     }
     while True:
         print("\nMenu Principal - Dashboard")
