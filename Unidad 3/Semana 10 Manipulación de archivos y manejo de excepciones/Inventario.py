@@ -3,30 +3,27 @@ class Producto:
         """
         Constructor de la clase Producto.
         Inicializa un producto con un ID único, nombre, cantidad y precio.
-        :param id: Identificador único del producto.
-        :param nombre: Nombre del producto.
-        :param cantidad: Cantidad disponible del producto.
-        :param precio: Precio del producto.
         """
         self.id = id
         self.nombre = nombre
         self.cantidad = cantidad
-        self.precio = prec
+        self.precio = precio
+
     # Getters
     def get_id(self):
-        """Retorna el ID del producto."""
+        """Devuelve el ID del producto."""
         return self.id
 
     def get_nombre(self):
-        """Retorna el nombre del producto."""
+        """Devuelve el nombre del producto."""
         return self.nombre
 
     def get_cantidad(self):
-        """Retorna la cantidad disponible del producto."""
+        """Devuelve la cantidad disponible del producto."""
         return self.cantidad
 
     def get_precio(self):
-        """Retorna el precio del producto."""
+        """Devuelve el precio del producto."""
         return self.precio
 
     # Setters
@@ -45,6 +42,6 @@ class Producto:
     def __str__(self):
         """
         Representación en cadena del producto.
-        Retorna una cadena formateada con los detalles del producto.
+        Devuelve una cadena formateada con los detalles del producto.
         """
         return f"ID: {self.id}, Nombre: {self.nombre}, Cantidad: {self.cantidad}, Precio: {self.precio}"
